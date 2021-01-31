@@ -5,16 +5,15 @@ Portfolio Website with Django Framework from Principle of Software Architecture 
 
 ## How to run
 
-
-Step1: Install virtual enviroment
-```bash
-    pip install virtualenv
-```
-
-Step2: Clone this repository and change your current working directory 
+Step1: Clone this repository and change your current working directory 
 ```bash
     git clone https://github.com/Wijantra/portfolio-project
     cd portfolio-project
+```
+
+Step2: Install virtual enviroment
+```bash
+    pip install virtualenv
 ```
 
 Step3: Create new virtual enviroment
@@ -22,27 +21,17 @@ Step3: Create new virtual enviroment
     virtualenv env
 ```
 
-Step4: Activate virtualenv
-```bash
-    \path\to\env\Scripts\activate
-```
-
-Step5: After activate virtualenv, install all required packages
+Step4: After activate virtualenv, install all required packages
 ```bash
     pip install -r requirements.txt
 ```
 
-Step6: Create database tables
+Step5: Create database tables
 ```bash
     python manage.py migrate
 ```
 
-Step7: Collect static
-```bash
-    python manage.py collectstatic
-```
-
-Step8: Run server 
+Step6: Run server 
 ```bash
     python manage.py runserver
 ```
