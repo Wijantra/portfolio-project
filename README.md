@@ -21,7 +21,7 @@ Step3: Create new virtual enviroment
     virtualenv env
 ```
 
-Step4: After activate virtualenv, install all required packages
+Step4: Install all required packages
 ```bash
     pip install -r requirements.txt
 ```
